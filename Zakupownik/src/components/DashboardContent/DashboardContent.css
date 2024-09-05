@@ -1,0 +1,25 @@
+.dashboardWrapper {
+  display: flex;
+}
+
+.sidebar {
+  width: 25%;
+  padding: 20px;
+  background-color: #f4f4f4;
+}
+
+.mainContent {
+  width: 75%;
+  padding: 20px;
+  display: flex;
+  flex-direction: row; /* Zmiana na wiersz, aby ustawić kolumny obok siebie */
+}
+
+.productsListWrapper {
+  width: 50%; /* Szerokość kolumny */
+  margin-right: 20px; /* Odstęp między kolumnami */
+}
+
+.shoppingListWrapper {
+  width: 20%; /* Szerokość kolumny */
+}
