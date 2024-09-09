@@ -79,6 +79,7 @@ const SignOut = () => {
           placeholder="Wpisz swoje imię"
           value={username}
           onChange={(e) => setUsername(e.target.value)}
+          data-testid="register-username-input"
           required
         />
         <input
@@ -86,9 +87,12 @@ const SignOut = () => {
           placeholder="Wpisz swoje hasło"
           value={password}
           onChange={(e) => setPassword(e.target.value)}
+          data-testid="register-password-input"
           required
         />
-        <button type="submit">Zarejestruj i zaloguj</button>
+        <button type="submit" data-testid="register-submit">
+          Zarejestruj i zaloguj
+        </button>
       </form>
       <SignIn />
       <Snackbar

@@ -45,6 +45,7 @@ const SignIn = () => {
           placeholder="Wpisz swoje imię"
           value={username}
           onChange={(e) => setUsername(e.target.value)}
+          data-testid="login-username-input"
           required
         />
         <input
@@ -52,9 +53,12 @@ const SignIn = () => {
           placeholder="Wpisz swoje hasło"
           value={password}
           onChange={(e) => setPassword(e.target.value)}
+          data-testid="login-password-input"
           required
         />
-        <button type="submit">Zaloguj się</button>
+        <button type="submit" data-testid="login-submit">
+          Zaloguj się
+        </button>
       </form>
       <Snackbar
         open={error}
