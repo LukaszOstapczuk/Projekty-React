@@ -1,0 +1,14 @@
+[
+  {
+    "id": 2,
+    "name": "Product 2",
+    "category": "Category 2",
+    "isFood": false
+  },
+  {
+    "id": 3,
+    "name": "Product 3",
+    "category": "Category 1",
+    "isFood": true
+  }
+]

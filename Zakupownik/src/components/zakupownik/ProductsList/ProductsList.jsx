@@ -11,11 +11,16 @@ const ProductsList = () => {
   return (
     <div className="productsListWrapper">
       <h2>Lista produktów:</h2>
-      <Button variant="contained" onClick={loadProducts} disabled={loading}>
+      <Button
+        variant="contained"
+        onClick={loadProducts}
+        disabled={loading}
+        data-testid="load-button"
+      >
         Załaduj
       </Button>
       {loading ? (
-        <CircularIndeterminate />
+        <CircularIndeterminate data-testid="loading-spinner" />
       ) : (
         <ul>
           {filteredProducts.map((product) => (

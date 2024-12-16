@@ -2,7 +2,7 @@ import * as React from "react";
 import CircularProgress from "@mui/material/CircularProgress";
 import Box from "@mui/material/Box";
 
-export default function CircularIndeterminate() {
+export default function CircularIndeterminate(props) {
   return (
     <Box
       sx={{
@@ -11,6 +11,7 @@ export default function CircularIndeterminate() {
         alignItems: "center",
         height: "100%",
       }}
+      data-testid={props["data-testid"]}
     >
       <CircularProgress />
     </Box>
