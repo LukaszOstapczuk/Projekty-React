@@ -1,16 +1,3 @@
-# PS 11 - 16.06.2024 Zadanie zaliczeniowe (sem2) - "Zakupownik "Online" "
-
-Maksymalna ilość punktów: 5
-
-Punkty  | Ocena
-------------- | -------------
-3  | 3
-3.5  | 3.5
-4  | 4
-4.5  | 4.5
-5  | 5
-
-
 # Uruchomienie
 
 Instalacja productsApi - `npm install - wewnątrz folderu API`
