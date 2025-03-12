@@ -6,16 +6,7 @@ Uruchomienie productsApi - `npm run start - wewnątrz folderu API`
 
 Uruchomienie gównej aplikacji - `npm install / npm run dev`
 
-# Uwagi dotyczące zaliczenia
-
-Zadanie 1 jest zadaniem obowiązkowym i jego zrobienie w całości gwarantuje zaliczenie na minimalną ocenę.
-Pozostałe zadania są opcjonalne i można je wykonywać niezależnie w celu podniesienia ilości punktów do zaliczenia
-
-Dokumentacja API (swagger) będzie dostępny pod http://localhost:4000/swagger po uruchomieniu aplikacji API
-
-**Uwaga:** Wszystkie zapytania z API zwracają / modyfikują dane po czasie 3-ch sekund, zatem w czasie wykonywania operacji należy pokazać dla użytkownika stosowny komunikat (np LinearProgress z biblioteki material UI używany na zajęciach https://mui.com/material-ui/react-progress/#linear-indeterminate)
-
-# Zadanie 1 (3 pkt) - Product list - API Integration / React Context
+Product list - API Integration / React Context
 
 Adresy API:
 - pobieranie listy produktów GET - http://localhost:4000/api/productsList
@@ -24,7 +15,7 @@ Adresy API:
 
 - Kliknięcie na przycisk powinno wywołać zapytanie od API, wyniki zwrócone z zapytania powinny zostać zapisane w R.context, a następnie wyświetlone w komponencie productsList.
 
-# Zadanie 2 (0.5 pkt) - Shopping list Add / Remove Product
+Shopping list Add / Remove Product
 
 Adresy API
 - pobieranie listy zakupów - GET http://localhost:4000/api/shoppingList
@@ -42,12 +33,12 @@ Spawdzenie zadania:
 - odśwież stronę
 	- lista shopping list powinna zawierać dodane elementy
 
-# Zadanie 3 (0.5 pkt) - Filtrowanie w React Context
+Filtrowanie w React Context
 
 Użyj elementów formularza z sekcji "Filters" aby filtrować produkty [lewa kolumna] (takie same filtrowanie jak w zadaniu zaliczeniowym sem.1) z tą różnicą, że filtrowanie powinno się odbywać wewnątrz ReactContext.
 **Podpowiedź:** Utwórz w R.Context metodę która będzie miała za zadanie filtrowanie produktów, wywołasz tą metodę w Header, a zmiana stanu będzie widoczna w ProductsList
 
-# Zadanie 4a (0.5 pkt) - Logowanie - Prodected Route
+Logowanie - Prodected Route
 
 Nowy routing: localhost:3000/signIn
 
@@ -63,7 +54,7 @@ Sprawdzenie zadania:
 - wylogowujemy się
 - próbujemy wpisać http://localhost:3000/dashboard - zostajemy przeniesieni do logowania
 
-# Zadanie 4b (0.5 pkt) - Rejestracja -
+Rejestracja -
 
 Nowy routing: localhost:3000/signOut
 
